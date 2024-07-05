@@ -1,0 +1,140 @@
+
+
+ /*Lê Minh Thiên B2012144*/
+
+
+
+/*Nút lên top page*/
+
+
+
+.button-to-top {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(20, 20, 20);
+    border: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 0px 4px rgba(180, 160, 255, 0.253);
+    cursor: pointer;
+    transition-duration: 0.3s;
+    overflow: hidden;
+    position: fixed;
+    right:20px;
+    bottom:20px;
+}
+
+.svgIcon {
+    width: 12px;
+    transition-duration: 0.3s;
+}
+
+ .svgIcon path {
+        fill: white;
+    }
+
+.button-to-top:hover {
+    width: 140px;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+    background-color: rgb(181, 160, 255);
+    align-items: center;
+}
+
+    .button-to-top:hover .svgIcon {
+        /* width: 20px; */
+        transition-duration: 0.3s;
+        transform: translateY(-200%);
+    }
+
+.button-to-top::before {
+    position: absolute;
+    bottom: -20px;
+    content: "Back to Top";
+    color: white;
+    /* transition-duration: .3s; */
+    font-size: 0px;
+}
+
+.button-to-top:hover::before {
+    font-size: 13px;
+    opacity: 1;
+    bottom: unset;
+    /* transform: translateY(-30px); */
+    transition-duration: 0.3s;
+}
+
+
+
+
+/*Footer page*/
+.footer{
+    
+    padding-top: 70px;
+    padding-bottom: 50px;
+
+
+}
+footer {
+  
+    background-color: #222222; /* Màu nền của footer */
+    padding-top: 20px;
+    
+  }
+
+  .footer-info{
+    font-size: 20px;
+    font-weight: bolder;
+    color: gray;
+  }
+  .container {
+    width: 70%;
+    margin: auto;
+  }
+  
+
+    /* CSS cho phần kêt nối với chúng tôi */
+  .icon-resizing{
+    font-size: 40px;
+    margin-left: 15px;
+  }
+  .conection a{
+    text-decoration: none;
+    margin-right: 10px;
+  }
+ 
+ 
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  ul li a {
+    color: #364b60;
+    text-decoration: none;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline;
+  }
+  .contact h2{
+        color: gray;
+  }
+  .contact i{
+    font-size: 20px;
+    margin-right: 10px;
+    
+  }
+    .contact-method{
+
+    font-size: 16px;
+    color: #eeded1;
+    
+  }

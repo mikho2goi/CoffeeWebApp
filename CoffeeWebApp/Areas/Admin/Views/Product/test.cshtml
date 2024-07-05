@@ -1,0 +1,73 @@
+﻿@using CoffeeWebApp.ViewModels
+@model ListCategoryViewModel
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Product";
+}
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th scope="col">Tên</th>
+            <th scope="col">Số Lượng</th>
+            <th scope="col">Giá</th>
+            <th scope="col">Mô Tả</th>
+            <th scope="col">Hình Ảnh</th>
+            <th scope="col">Loại</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model.Products.Reverse())
+        {
+            <tr>
+                <td>@product.NameProduct</td>
+                <td>@product.Quantity</td>
+                <td>@product.Price.ToString("C", new System.Globalization.CultureInfo("vi-VN"))</td>
+                <td>@product.Description</td>
+                <td><img src="@product.UrlImage" alt="Product A" style="max-width: 100px;"></td>
+                <td> @product.Category.CategoryName</td>
+                <td>
+                    <div class="d-flex justify-content-around">
+                        <form asp-controller="Category" asp-action="UpdateCategory" asp-area="Admin" method="post">
+                            <button type="button" class="btn btn-success p-3 rounded" data-bs-toggle="modal" data-bs-target="#updateModal">
+                                Sửa
+                            </button>
+                            <input asp-for="Category.CategoryId" type="hidden" />
+                            <!-- Modal -->
+                            <div class="modal fade" id="updateModal" tabindex="-1" aria-labelledby="updateModalLabel" aria-hidden="true">
+                                <div class="modal-dialog  modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Sửa Tên Loại</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+
+                                        <div class="modal-body">
+                                            <input asp-for="Category.CategoryName" class="form-control " type="text" class="w-full  bg-white pl-2 text-base font-semibold " placeholder="Nhập Lại Tên Khác" id="" required>
+                                        </div>
+
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                                            <button type="submit" class="btn btn-primary">Lưu Thay Đổi</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </form>
+
+
+                        <form id="deleteForm" asp-controller="Category" asp-action="DeleteCategory" asp-area="Admin" method="post">
+                            <input asp-for="Category.CategoryId" type="hidden" />
+                            <button id="deleteButton" class="btn btn-danger p-3  rounded" title="Delete">
+                                Xóa
+                            </button>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+        }
+
+        <!-- Add more rows as needed -->
+    </tbody>
+</table>

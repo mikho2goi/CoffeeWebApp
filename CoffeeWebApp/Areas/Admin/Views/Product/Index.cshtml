@@ -1,0 +1,221 @@
+﻿@using CoffeeWebApp.ViewModels
+@model ListCategoryViewModel
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Product";
+}
+<div class="container mt-4">
+    <h2>Loại: @Model.Category.CategoryName</h2>
+
+    <form asp-controller="Product" asp-action="CreateProduct" asp-area="Admin" method="post" enctype="multipart/form-data">
+        <button type="button" class="btn btn-primary p-2 rounded" data-bs-toggle="modal" data-bs-target="#createProduct">
+            Thêm Sản phẩm Mới
+        </button>
+        <input asp-for="Category.CategoryId" value="@Model.Category.CategoryId" type="hidden" />
+        <input asp-for="Category.CategoryName" value="@Model.Category.CategoryName" type="hidden" />
+        <!-- Modal -->
+        <div class="modal fade" id="createProduct" tabindex="-1" aria-labelledby="createProduct" aria-hidden="true">
+            <div class="modal-dialog  modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="createProductHead">Thêm Sản Phẩm Mới</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <!-- Modal Body-->
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="productName">Tên</label>
+                            <input asp-for="Product.NameProduct" type="text" class="form-control" id="productName" placeholder="Nhập tên sản phẩm" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="productQuantity">Số Lượng</label>
+                            <input asp-for="Product.Quantity" type="number" class="form-control" id="productQuantity" placeholder="Nhập số lượng" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="productPrice">Giá</label>
+                            <input asp-for="Product.Price" type="number" class="form-control" id="productPrice" placeholder="Nhập giá sản phẩm" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="productDescription">Giới Thiệu</label>
+                            <textarea asp-for="Product.Description" class="form-control" id="productDescription" rows="3" placeholder="Nhập mô tả sản phẩm"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="productImage">Hình Ảnh</label>
+                            <input asp-for="Product.Image" type="file" class="form-control-file" id="productImage" >
+                        </div>
+                        <div class="form-group">
+                            <label for="productCategory">Loại</label>
+                            <input type="text" class="form-control" id="productCategory" value="@Model.Category.CategoryName" disabled>
+                            <input asp-for="Product.CategoryId" type="hidden" class="form-control" value="@Model.Category.CategoryId ">
+                        </div>
+                    </div>
+                    <!-- Modal Footer-->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                        <button type="submit" class="btn btn-primary">Lưu Thay Đổi</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </form>
+
+    @if (TempData["Error"] != null)
+    {
+        <div class="col-md-12 alert alert-danger">
+            <span><b>@TempData["Error"]</b></span>
+        </div>
+    }
+    @if (TempData["Success"] != null)
+    {
+        <div class="col-md-12 alert alert-success">
+            <span><b>@TempData["Success"]</b></span>
+        </div>
+    }
+
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th scope="col">Tên</th>
+                <th scope="col">Số Lượng</th>
+                <th scope="col">Giá</th>
+                <th scope="col">Mô Tả</th>
+                <th scope="col">Hình Ảnh</th>
+                <th scope="col">Loại</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var product in Model.Products.Reverse())
+            {
+                <tr>
+                    <td>@product.NameProduct</td>
+                    <td>@product.Quantity</td>
+                    <td>@product.Price.ToString("C", new System.Globalization.CultureInfo("vi-VN"))</td>
+                    <td>@product.Description</td>
+                    <td><div><img src="@product.UrlImage" alt="Product A" style="max-width: 100px;"></div></td>
+                    <td> @Model.Category.CategoryName</td>
+                    <td>
+                        <div class="d-flex justify-content-around">
+
+                            <form asp-controller="Product" asp-action="UpdateProduct" asp-area="Admin" method="post" enctype="multipart/form-data">
+                                <button type="button" class="btn btn-success p-3 rounded"  onclick='openEditModal("@product.NameProduct", "@product.Quantity", "@product.Price", "@product.Description", "@product.UrlImage","@product.Id")'>
+                                     Sửa 
+                                </button>
+
+                                <input asp-for="Category.CategoryId" type="hidden" value="@product.CategoryId" />
+                                <input asp-for="Category.CategoryName" type="hidden" value="@product.Category.CategoryName" />
+                                <!-- Modal -->
+                                <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog  modal-dialog-centered">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Chỉnh Sửa Thông Tin Sản phẩm</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <!-- Modal Body-->
+                                            <div class="modal-body">
+                                                <div class="form-group">
+                                                    <label for="productName">Tên</label>
+                                                    <input asp-for="Product.NameProduct" type="text" class="form-control" id="productNameUpDate" placeholder="Nhập tên sản phẩm" required>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="productQuantity">Số Lượng</label>
+                                                    <input asp-for="Product.Quantity" type="number" class="form-control" id="productQuantityUpDate" placeholder="Nhập số lượng" required>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="productPrice">Giá</label>
+                                                    <input asp-for="Product.Price" type="number" class="form-control" id="productPriceUpDate" placeholder="Nhập giá sản phẩm" required>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="productDescription">Giới Thiệu</label>
+                                                    <textarea asp-for="Product.Description" class="form-control" id="productDescriptionUpDate" rows="3" placeholder="Nhập mô tả sản phẩm"></textarea>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="productImage">Hình Ảnh</label>
+                                                    <input asp-for="Product.Image" type="file" class="form-control-file" id="productImageUpDate">
+                                                    <input asp-for="Product.UrlImage" type="input" value="@product.UrlImage" class="form-control-file" id="productImageUpDate"hidden>
+                                                    <img id="previewImageUpDate"  class="img-thumbnail mt-2" style="max-width: 200px;" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="productCategory">Loại</label>
+                                                    <input type="text" class="form-control" id="productCategoryUpDate" value="@Model.Category.CategoryName" disabled>
+                                                    <input asp-for="Product.CategoryId" type="hidden" class="form-control" value="@Model.Category.CategoryId">
+                                                    <input asp-for="Product.Id" type="hidden" id="productIdUpDate" />
+                                                </div>
+                                            </div>
+                                            <!-- Modal Footer-->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                                                <button type="submit" class="btn btn-primary">Lưu Thay Đổi</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </form>
+
+
+
+                            <form id="deleteForm" asp-controller="Product" asp-action="DeleteProduct" asp-area="Admin" method="post">
+                                <input asp-for="Product.Id" value="@product.Id" type="hidden" />
+                                <input asp-for="Category.CategoryId" value="@product.Category.CategoryId" type="hidden" />
+                                <input asp-for="Product.UrlImage" value="@product.UrlImage" type="hidden" />
+                                <button id="deleteButton" class="btn btn-danger p-3  rounded" title="Delete">
+                                    Xóa
+                                </button>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+            }
+         
+            <!-- Add more rows as needed -->
+        </tbody>
+    </table>
+</div>
+
+<script>
+    document.querySelectorAll('#deleteButton').forEach(button => {
+        button.addEventListener('click', function (event) {
+            var form = this.closest('form');
+            var confirmDelete = confirm('Bạn có chắc chắn muốn xóa mục này không?');
+            if (confirmDelete) {
+                form.submit();
+            } else {
+                event.preventDefault();
+            }
+        });
+    });
+
+</script>
+<script>
+    function openEditModal( productName, productQuantity, productPrice, productDescription, productImage, productId) {
+        // Đưa dữ liệu sản phẩm vào modal khi mở
+        var productName = productName;
+        var productQuantity = productQuantity;
+        var productPrice = productPrice;
+        var productDescription = productDescription;
+        var productImage = productImage;
+        var productId = productId;
+
+        document.getElementById("productNameUpDate").value = productName;
+        document.getElementById("productQuantityUpDate").value = productQuantity;
+        document.getElementById("productPriceUpDate").value = productPrice;
+        document.getElementById("productDescriptionUpDate").value = productDescription;
+        document.getElementById("previewImageUpDate").src = productImage;
+        document.getElementById("productIdUpDate").value = productId;
+        console.log(productId);
+        // Hiển thị modal
+        var myModal = new bootstrap.Modal(document.getElementById('editModal'), {
+            keyboard: false
+        });
+        myModal.show();
+    }
+</script>
+<style>
+    .centered {
+        text-align: center;
+    }
+</style>

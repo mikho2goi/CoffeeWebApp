@@ -1,0 +1,130 @@
+﻿@using CoffeeWebApp.ViewModels
+@model ListCategoryViewModel
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Category";
+}
+
+    <h1 >Thêm Loại Mới</h1>
+
+<form asp-controller="Category" asp-action="CreateCategory" asp-area="Admin" method="post">
+    <div class="d-flex">
+        <input asp-for="Category.CategoryName" class="form-control " type="text" class="w-full  bg-white pl-2 text-base font-semibold " placeholder="Tên Loại" id="" required>
+
+        <button class="group cursor-pointer outline-none bg-blue text-white hover:brightness-300 px-1 py-1"
+                title="Add New" type="submit">
+            Thêm
+        </button>
+           </div>
+    </form>
+     
+   
+
+@if (TempData["Success"] != null)
+{
+    <div class="col-md-12 alert alert-success">
+        <span><b>@TempData["Success"]</b></span>
+    </div>
+}
+@if (TempData["Error"] != null)
+{
+    <div class="col-md-12 alert alert-danger">
+        <span><b>@TempData["Error"]</b></span>
+    </div>
+}
+<table class="table container-fluid ">
+    <thead>
+        <tr>
+            <th>STT</th>
+            <th>Tên</th>
+            <th>Số lượng</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            var i = 1;
+        }
+        @foreach (var Category in Model.Categories)
+        {
+            
+            var modalId = $"modal-{Category.CategoryId}";
+            var modalLabelId = $"modalLabel-{Category.CategoryId}";
+            var categoryName = Category.CategoryName;
+            <tr>
+                <td>@i</td>
+                <td>@Category.CategoryName</td>
+                <td>@Category.CategoryQuantity</td>
+                <td>
+                    <div class="d-flex justify-content-around">
+                    <form asp-controller="Product" asp-action="Index" asp-area="Admin" method="get">
+                            <input asp-for="Category.CategoryId" value="@Category.CategoryId" type="hidden" />
+                            <input asp-for="Category.CategoryName" value="@Category.CategoryName" type="hidden" />
+                            <button class="group cursor-pointer outline-none bg-blue text-white hover:brightness-300 p-3 rounded" title="Detail" type="submit">
+                            Xem
+                        </button>
+                    </form>
+
+
+
+                    <form asp-controller="Category" asp-action="UpdateCategory" asp-area="Admin" method="post">
+                            <button type="button" class="btn btn-success p-3 rounded" data-bs-toggle="modal" data-bs-target="#@modalId">
+                                Sửa
+                            </button>
+                            <input asp-for="Category.CategoryId" value="@Category.CategoryId" type="hidden" />
+                            
+                            <!-- Modal -->
+                            <div class="modal fade" id="@modalId" tabindex="-1" aria-labelledby="@modalLabelId" aria-hidden="true">
+                                <div class="modal-dialog  modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="@modalLabelId">Sửa Tên Loại</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+
+                                        <div class="modal-body">
+                                            <div class="block">
+                                                <h6> Tên Ban Đầu : @categoryName</h6>
+                                            </div>
+                                            <input  asp-for="Category.CategoryName" class="form-control "  type="text" class="w-full  bg-white pl-2 text-base font-semibold " placeholder="Nhập Tên Muốn Đổi" id="" required>
+                                        </div>
+
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                                            <button type="submit" class="btn btn-primary">Lưu Thay Đổi</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                         
+                    </form>
+
+
+                    <form id="deleteForm" asp-controller="Category" asp-action="DeleteCategory" asp-area="Admin" method="post">
+                        <input asp-for="Category.CategoryId" value="@Category.CategoryId" type="hidden" />
+                            <button id="deleteButton" class="btn btn-danger p-3  rounded" title="Delete">
+                            Xóa
+                        </button>
+                    </form>
+                    </div>
+                </td>
+            </tr>
+            i++;
+        }
+    </tbody>
+</table>
+
+
+<script>
+    document.querySelectorAll('#deleteButton').forEach(button => {
+        button.addEventListener('click', function (event) {
+            var form = this.closest('form');
+            var confirmDelete = confirm('Bạn có chắc chắn muốn xóa mục này không?');
+            if (confirmDelete) {
+                form.submit();
+            } else {
+                event.preventDefault();
+            }
+        });
+    });
+
+</script>

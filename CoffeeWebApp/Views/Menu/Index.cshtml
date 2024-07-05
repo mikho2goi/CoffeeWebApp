@@ -1,0 +1,87 @@
+﻿@using CoffeeWebApp.ViewModels
+@model ListCategoryViewModel
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Menu";
+}
+
+<div class="py-5 "> </div>
+
+<div class="container-fluid d-flex justify-content-center introduce pt-5">
+    <div class="content-tenshi container">
+        <div class="d-flex justify-content-center">
+            <h2>MENU TỔNG</h2>
+        </div>
+    </div>
+</div>
+
+<!--Phần giới thiệu -->
+<div class="container-fluid d-flex justify-content-center introduce ">
+    <div class="content-tenshi container">
+        <div class="d-flex justify-content-center">
+            <select id="categoryId" class="form-select">
+                <option value="">-- Chọn loại sản phẩm --</option>
+                @foreach (var category in Model.Categories)
+                {
+                    <option value="@category.CategoryId">@category.CategoryName</option>
+                }
+            </select>
+        </div>
+    </div>
+</div>
+
+@foreach (var category in Model.Categories)
+{
+    <div class="  category-section" id="category-@category.CategoryId">
+        <div class="container-fluid d-flex justify-content-center introduce">
+            <div class="content-tenshi container">
+                <div class="d-flex justify-content-center">
+                    <h1 class="restaurant-name">@category.CategoryName</h1>
+                </div>
+            </div>
+        </div>
+            <div class="row">
+            @foreach (var product in category.Products)
+            { 
+            
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                        <div class="p-0 card h-100 ">
+                            <div class="row g-0 h-100">
+                                <div class="col-6">
+                                    <img src="@product.UrlImage" class="img-fluid rounded-start h-100 w-100" alt="Hình sản phẩm">
+                                </div>
+                                <div class="col-6">
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <h5 class="card-title">@product.NameProduct</h5>
+                                        <h6>@product.Price.ToString("C", new System.Globalization.CultureInfo("vi-VN"))</h6>
+                                    
+                                    </div>
+                                    <div class="card-footer"><button class="btn btn-primary btn-bottom-right">Thêm</button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            }
+             </div>
+            <!-- Lặp lại card này cho các sản phẩm khác -->
+       
+    </div>
+}
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(function () {
+        $('#categoryId').change(function () {
+            var selectedCategoryId = $(this).val();
+            if (selectedCategoryId) {
+                // Ẩn tất cả các danh mục sản phẩm
+                $('.category-section').hide();
+
+                // Hiển thị danh mục sản phẩm được chọn
+                $('#category-' + selectedCategoryId).show();
+            } else {
+                // Nếu không có loại sản phẩm được chọn, hiển thị tất cả các danh mục sản phẩm
+                $('.category-section').show();
+            }
+        });
+    });
+</script>

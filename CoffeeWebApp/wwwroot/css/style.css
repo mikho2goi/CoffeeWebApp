@@ -1,0 +1,187 @@
+
+
+ /*Lê Minh Thiên B2012144*/
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+   
+    
+}
+
+
+body {
+    height: 100%;
+    background-color: #dfd8d2;
+}
+
+
+
+/*Banner page*/
+.banner-page {
+  margin-top: 100px;
+    
+}
+
+.banner-img{
+    width: 100%;
+    height: auto;
+}
+
+.button-next-carousel{
+    height: 60px;
+    width: 60px;   
+}
+
+.button-previous-carousel{
+    height: 60px;
+    width: 60px;   
+}
+.carousel-control-prev{
+    height: 70px;
+    width: 70px;
+    top: 50%;
+    left: 50px;
+    
+}
+.carousel-control-next{
+    height: 70px;
+    width: 70px;
+    top: 50%;
+    right: 50px;
+}
+/*Nội dung page*/
+.introduce {
+    background-color: #dfd8d2;
+    margin-bottom: 40px;
+}
+.content-tenshi {
+    font-size: 24px;
+    color: #2c2c2c;
+}
+.restaurant-name{
+    font-size: 26px;
+    letter-spacing: 4px;
+    font-weight: bolder;
+   text-align: center;
+}
+.slogan{
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.discription {
+    color: #2c2c2c;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 0.5px;
+}
+
+/*ảnh giới thiệu các món đặc trưng*/
+.intro-img{
+
+   min-width: 170px;
+    height: auto;
+   transition: 0.3s ease;
+   
+}
+.intro-img:hover{
+    cursor: pointer;
+   opacity: 0.8;
+    transform: scale(1.05);
+   
+    font-size: 28px;
+   
+}
+
+.note {
+    font-family: Bellefair, Times, "Century Schoolbook L", serif;
+    font-size: 26px;
+    font-weight: 500;
+    color: #2c2c2c;
+    line-height: 3em;
+    letter-spacing: 1px;
+}
+
+
+/*nút chuyển tới menu*/
+.button-menu {
+    background-color: #bdb9b6;
+    color: black;
+    border-color: #5a5a5a;
+}
+    .button-menu:hover {
+        background-color: black;
+        color:white;
+    }
+
+
+/*chương trình sale*/
+.container-img-sale{
+   
+}
+.text-sale {
+    color: #2c2c2c;
+}
+/*ảnh giới thiệu liên hệ*/
+
+
+
+
+
+.about-us-img{
+    width: 100%;
+    height: auto;
+    filter: brightness(50%);
+    
+}
+
+.content-in-img{
+    width: 100%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+}
+.content-in-img>h2{
+    
+    letter-spacing: 15px;
+    color: #ff5202;
+    
+}
+.buttonInsideImage{
+    height: 60px;
+    color: white;
+    border: 1px solid #fff;
+    border-left: none;
+    border-right: none;
+    font-weight: 500;
+    letter-spacing: 3px;
+    transition: 0.3s;
+  
+   
+}
+.buttonInsideImage:hover{
+    background-color:rgb(99, 99, 99);
+    color: #ffffff;
+    
+}
+
+/* các tùy chọn*/
+.menu-shushi{
+    background-color: #eeded1;
+}
+
+
+
+
+
+

@@ -1,0 +1,585 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ThucTapC#\\CoffeeWebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\coffeewebapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\coffeewebapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\repository\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\repository\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\views\\home\\info.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\views\\home\\info.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\models\\billmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\models\\billmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\service\\photoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\service\\photoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\wwwroot\\js\\search.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\wwwroot\\js\\search.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\viewmodels\\listcategoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\viewmodels\\listcategoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\viewmodels\\listproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\viewmodels\\listproductviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\views\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\views\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\wwwroot\\js\\header.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\wwwroot\\js\\header.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|d:\\thuctapc#\\coffeewebapp\\coffeewebapp\\wwwroot\\js\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0F414D85-2BA3-413A-8875-14B8A81D059A}|CoffeeWebApp\\CoffeeWebApp.csproj|solutionrelative:coffeewebapp\\wwwroot\\js\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 72,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CoffeeWebApp",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\CoffeeWebApp.csproj",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\CoffeeWebApp.csproj",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\CoffeeWebApp.csproj",
+              "RelativeToolTip": "CoffeeWebApp\\CoffeeWebApp.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-05T19:05:06.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "CoffeeWebApp\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T19:41:31.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminRepository.cs",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Repository\\AdminRepository.cs",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\Repository\\AdminRepository.cs",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Repository\\AdminRepository.cs",
+              "RelativeToolTip": "CoffeeWebApp\\Repository\\AdminRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T19:18:16.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Info.cshtml",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Views\\Home\\Info.cshtml",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\Views\\Home\\Info.cshtml",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Views\\Home\\Info.cshtml",
+              "RelativeToolTip": "CoffeeWebApp\\Views\\Home\\Info.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAYwFQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-29T19:07:36.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CoffeeWebApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAAAB4AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-29T19:00:46.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "CoffeeWebApp\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAFIAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-29T13:26:53.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "CoffeeWebApp\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-29T11:23:53.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "CoffeeWebApp\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-29T13:52:35.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Views\\Menu\\Index.cshtml",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\Views\\Menu\\Index.cshtml",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Views\\Menu\\Index.cshtml",
+              "RelativeToolTip": "CoffeeWebApp\\Views\\Menu\\Index.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAA8AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-29T11:19:06.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "CoffeeWebApp\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAADwvzAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T17:01:23.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CoffeeWebApp\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T13:14:03.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "CoffeeWebApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-29T12:05:13.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BillModel.cs",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Models\\BillModel.cs",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\Models\\BillModel.cs",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Models\\BillModel.cs",
+              "RelativeToolTip": "CoffeeWebApp\\Models\\BillModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T19:05:04.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "CoffeeWebApp\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-29T19:08:06.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Repository\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\Repository\\CategoryRepository.cs",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Repository\\CategoryRepository.cs",
+              "RelativeToolTip": "CoffeeWebApp\\Repository\\CategoryRepository.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAkwBYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T16:11:44.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\Controllers\\MenuController.cs",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "CoffeeWebApp\\Controllers\\MenuController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAwCcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T10:44:33.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ProductModel.cs",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Models\\ProductModel.cs",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\Models\\ProductModel.cs",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Models\\ProductModel.cs",
+              "RelativeToolTip": "CoffeeWebApp\\Models\\ProductModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T14:07:44.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "CoffeeWebApp\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T14:45:20.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CoffeeWebApp\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T12:00:49.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\Repository\\ProductRepository.cs",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "CoffeeWebApp\\Repository\\ProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T16:08:15.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "index.cshtml",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Areas\\Admin\\Views\\Category\\index.cshtml",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\Areas\\Admin\\Views\\Category\\index.cshtml",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Areas\\Admin\\Views\\Category\\index.cshtml",
+              "RelativeToolTip": "CoffeeWebApp\\Areas\\Admin\\Views\\Category\\index.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC4AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-29T11:24:04.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "CoffeeWebApp\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAADwv1IAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T12:00:45.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Search.js",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\wwwroot\\js\\Search.js",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\wwwroot\\js\\Search.js",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\wwwroot\\js\\Search.js",
+              "RelativeToolTip": "CoffeeWebApp\\wwwroot\\js\\Search.js",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-29T13:12:28.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "CoffeeWebApp\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAADwv1QAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T11:19:06.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PhotoService.cs",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Service\\PhotoService.cs",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\Service\\PhotoService.cs",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Service\\PhotoService.cs",
+              "RelativeToolTip": "CoffeeWebApp\\Service\\PhotoService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T17:04:04.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "CoffeeWebApp\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T16:04:16.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ListProductViewModel.cs",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\ViewModels\\ListProductViewModel.cs",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\ViewModels\\ListProductViewModel.cs",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\ViewModels\\ListProductViewModel.cs",
+              "RelativeToolTip": "CoffeeWebApp\\ViewModels\\ListProductViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T14:10:19.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ListCategoryViewModel.cs",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\ViewModels\\ListCategoryViewModel.cs",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\ViewModels\\ListCategoryViewModel.cs",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\ViewModels\\ListCategoryViewModel.cs",
+              "RelativeToolTip": "CoffeeWebApp\\ViewModels\\ListCategoryViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T14:10:32.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\ViewModels\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\ViewModels\\ProductViewModel.cs",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\ViewModels\\ProductViewModel.cs",
+              "RelativeToolTip": "CoffeeWebApp\\ViewModels\\ProductViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T14:11:44.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "CoffeeWebApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-29T13:52:38.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Views\\Error.cshtml",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\Views\\Error.cshtml",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Views\\Error.cshtml",
+              "RelativeToolTip": "CoffeeWebApp\\Views\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-29T13:52:36.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "CoffeeWebApp\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-29T13:52:35.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "header.js",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\wwwroot\\js\\header.js",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\wwwroot\\js\\header.js",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\wwwroot\\js\\header.js",
+              "RelativeToolTip": "CoffeeWebApp\\wwwroot\\js\\header.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-29T13:37:14.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "CoffeeWebApp\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-29T13:37:09.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "jquery.js",
+              "DocumentMoniker": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\wwwroot\\js\\jquery.js",
+              "RelativeDocumentMoniker": "CoffeeWebApp\\wwwroot\\js\\jquery.js",
+              "ToolTip": "D:\\ThucTapC#\\CoffeeWebApp\\CoffeeWebApp\\wwwroot\\js\\jquery.js",
+              "RelativeToolTip": "CoffeeWebApp\\wwwroot\\js\\jquery.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-29T13:37:11.33Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
